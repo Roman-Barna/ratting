@@ -1,0 +1,24 @@
+.star_items {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.star_item {
+    width: 25px;
+    height: 25px;
+    background: #ddd;
+    position: relative;
+    clip-path: polygon(50% 0%, 63% 32%, 98% 35%, 70% 57%, 79% 91%, 50% 73%, 21% 91%, 29% 58%, 2% 35%, 38% 32%);
+}
+
+.star_item_after {
+    width: 0;
+    height: 100%;
+    background-color: #1D5CD4;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
